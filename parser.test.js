@@ -1,8 +1,8 @@
 "use strict";
 
-var Lexer = require("./Lexer");
-var Tokenizer = require("./Tokenizer");
-var Parser = require("./Parser");
+var Lexer = require("./lexer");
+var Tokenizer = require("./tokenizer");
+var Parser = require("./parser");
 
 test("parse <p />", () => {
   var parser = new Parser(new Tokenizer(new Lexer("<p />")));

@@ -1,6 +1,6 @@
 "use strict";
 
-var Lexer = require("./Lexer");
+var Lexer = require("./lexer");
 
 var CHAR_A = "a".charCodeAt(0);
 var CHAR_B = "b".charCodeAt(0);

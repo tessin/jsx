@@ -1,6 +1,6 @@
 "use strict";
 
-var Tokenizer = require("./Tokenizer");
+var Tokenizer = require("./tokenizer");
 
 function Parser(tok) {
   if (!(tok instanceof Tokenizer))

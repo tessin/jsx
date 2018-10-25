@@ -1,6 +1,6 @@
 "use strict";
 
-var Lexer = require("./Lexer");
+var Lexer = require("./lexer");
 
 var CHAR_LEFT_ANGLE_BRACKET = "<".charCodeAt(0);
 var CHAR_RIGHT_ANGLE_BRACKET = ">".charCodeAt(0);
